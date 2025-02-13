@@ -4,8 +4,9 @@
   "description": "A complete beckend project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
+  "type": "module",
   "keywords": [
     "javascript",
     "nodeJs",
@@ -13,5 +14,8 @@
     "Js."
   ],
   "author": "\"Aryan\"",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
