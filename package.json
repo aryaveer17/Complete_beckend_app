@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "A complete beckend project.",
   "main": "index.js",
-  "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
-  },
   "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/index.js"
+  },
   "keywords": [
     "javascript",
     "nodeJs",
